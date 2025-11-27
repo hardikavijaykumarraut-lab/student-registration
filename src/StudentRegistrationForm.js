@@ -41,7 +41,6 @@ function StudentRegistrationForm() {
 
     setErrors(newErrors);
 
-    // ✅ Return false if there are errors
     return Object.keys(newErrors).length === 0;
   };
 
@@ -51,7 +50,6 @@ function StudentRegistrationForm() {
     if (validate()) {
       alert(`Student Registered!\nName: ${formData.name}\nEmail: ${formData.email}\nCourse: ${formData.course}`);
 
-      // Reset form after successful submission
       setFormData({
         name: "",
         email: "",
