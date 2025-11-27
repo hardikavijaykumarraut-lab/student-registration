@@ -1,0 +1,84 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #444;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #6c63ff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(108, 99, 255, 0.4);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #574b90;
+  transform: translateY(-2px);
+}
+
+.error {
+  color: #e63946;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
