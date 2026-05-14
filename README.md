@@ -59,6 +59,6 @@ Contributions are welcome. Please open issues for bug reports or feature request
 This project is open source under the MIT License.
 
 ## Author
-Hardik Raut
+Hardika Raut
 
 Enjoy and feel free to extend this application with persistence (localStorage or backend API), extra validations, or improved styling!
